@@ -1,0 +1,2 @@
+match_id,match_date,kick_off,competition,season,home_team,away_team,home_score,away_score,match_status,match_status_360,last_updated,last_updated_360,match_week,competition_stage,stadium,home_managers,away_managers,data_version,shot_fidelity_version,xy_fidelity_version
+3888713,1974-02-17,21:00:00.000,Spain - La Liga,1973/1974,Real Madrid,Barcelona,0,5,available,unscheduled,2023-07-06T12:50:48.807820,,22,Regular Season,Estadio Santiago Bernabéu,,,1.1.0,2,2

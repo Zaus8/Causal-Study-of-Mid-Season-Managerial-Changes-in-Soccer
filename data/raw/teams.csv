@@ -1,0 +1,511 @@
+team_name,league,country,team_id,tier
+AIK Stockholm,Allsvenskan,Sweden,1,2
+Falkenbergs FF,Allsvenskan,Sweden,2,2
+Helsingborg,Allsvenskan,Sweden,3,2
+IFK Goteborg,Allsvenskan,Sweden,4,2
+IFK Norrkoping,Allsvenskan,Sweden,5,2
+Kalmar FF,Allsvenskan,Sweden,6,2
+Orebro SK,Allsvenskan,Sweden,7,2
+Ostersunds FK,Allsvenskan,Sweden,8,2
+Sirius,Allsvenskan,Sweden,9,2
+Vasby United,Allsvenskan,Sweden,10,2
+BK Hacken,Allsvenskan,Sweden,11,2
+Djurgardens IF,Allsvenskan,Sweden,12,2
+GIF Sundsvall,Allsvenskan,Sweden,13,2
+Hammarby FF,Allsvenskan,Sweden,14,2
+IF Elfsborg,Allsvenskan,Sweden,15,2
+Malmo FF,Allsvenskan,Sweden,16,2
+IK brage,Allsvenskan,Sweden,17,2
+Genk,Belgian Pro League,Belgium,18,1
+Kortrijk,Belgian Pro League,Belgium,19,1
+Cercle Brugge,Belgian Pro League,Belgium,20,1
+Club Brugge KV,Belgian Pro League,Belgium,21,1
+KV Mechelen,Belgian Pro League,Belgium,22,1
+Royal Excel Mouscron,Belgian Pro League,Belgium,23,1
+SK Beveren,Belgian Pro League,Belgium,24,1
+St. Truiden,Belgian Pro League,Belgium,25,1
+Standard Liege,Belgian Pro League,Belgium,26,1
+Zulte Waregem,Belgian Pro League,Belgium,27,1
+AS Eupen,Belgian Pro League,Belgium,28,1
+Anderlecht,Belgian Pro League,Belgium,29,1
+Antwerp,Belgian Pro League,Belgium,30,1
+Charleroi,Belgian Pro League,Belgium,31,1
+Gent,Belgian Pro League,Belgium,32,1
+Oostende,Belgian Pro League,Belgium,33,1
+Bayern Munich,Bundesliga,Germany,34,1
+Hertha Berlin,Bundesliga,Germany,35,1
+1. FC Köln,Bundesliga,Germany,36,1
+Bayer Leverkusen,Bundesliga,Germany,37,1
+Borussia Dortmund,Bundesliga,Germany,38,1
+Borussia Monchengladbach,Bundesliga,Germany,39,1
+FC Augsburg,Bundesliga,Germany,40,1
+FC Schalke 04,Bundesliga,Germany,41,1
+FSV Mainz 05,Bundesliga,Germany,42,1
+Fortuna Dusseldorf,Bundesliga,Germany,43,1
+SC Freiburg,Bundesliga,Germany,44,1
+SC Paderborn 07,Bundesliga,Germany,45,1
+VfL Wolfsburg,Bundesliga,Germany,46,1
+Werder Bremen,Bundesliga,Germany,47,1
+1899 Hoffenheim,Bundesliga,Germany,48,1
+Eintracht Frankfurt,Bundesliga,Germany,49,1
+RB Leipzig,Bundesliga,Germany,50,1
+Union Berlin,Bundesliga,Germany,51,1
+FC Heidenheim,Bundesliga,Germany,52,1
+Rapid Vienna,Bundesliga Austria,Austria,53,2
+Red Bull Salzburg,Bundesliga Austria,Austria,54,2
+Admira Wacker,Bundesliga Austria,Austria,55,2
+Austria Vienna,Bundesliga Austria,Austria,56,2
+WSG Wattens,Bundesliga Austria,Austria,57,2
+Wolfsberger AC,Bundesliga Austria,Austria,58,2
+Lask Linz,Bundesliga Austria,Austria,59,2
+SCR Altach,Bundesliga Austria,Austria,60,2
+SKN ST. Polten,Bundesliga Austria,Austria,61,2
+SV Mattersburg,Bundesliga Austria,Austria,62,2
+Sturm Graz,Bundesliga Austria,Austria,63,2
+TSV Hartberg,Bundesliga Austria,Austria,64,2
+Bohemians 1905,Czech First League,Czechia,65,3
+FK Jablonec,Czech First League,Czechia,66,3
+Baník Ostrava,Czech First League,Czechia,67,3
+Plzen,Czech First League,Czechia,68,3
+Příbram,Czech First League,Czechia,69,3
+Sigma Olomouc,Czech First League,Czechia,70,3
+Slovan Liberec,Czech First League,Czechia,71,3
+Teplice,Czech First League,Czechia,72,3
+Karviná,Czech First League,Czechia,73,3
+Mlada Boleslav,Czech First League,Czechia,74,3
+Opava,Czech First League,Czechia,75,3
+Slovácko,Czech First League,Czechia,76,3
+Sparta Praha,Czech First League,Czechia,77,3
+České Budějovice,Czech First League,Czechia,78,3
+Slavia Praha,Czech First League,Czechia,79,3
+Zlin,Czech First League,Czechia,80,3
+Esbjerg,Danish Superliga,Denmark,81,2
+FC Midtjylland,Danish Superliga,Denmark,82,2
+AC Horsens,Danish Superliga,Denmark,83,2
+Aalborg,Danish Superliga,Denmark,84,2
+Brondby,Danish Superliga,Denmark,85,2
+FC Copenhagen,Danish Superliga,Denmark,86,2
+FC Nordsjaelland,Danish Superliga,Denmark,87,2
+Lyngby,Danish Superliga,Denmark,88,2
+Odense,Danish Superliga,Denmark,89,2
+Randers FC,Danish Superliga,Denmark,90,2
+Silkeborg,Danish Superliga,Denmark,91,2
+Sonderjyske,Danish Superliga,Denmark,92,2
+Aarhus,Danish Superliga,Denmark,93,2
+Hobro,Danish Superliga,Denmark,94,2
+Arka Gdynia,Ekstraklasa,Poland,95,3
+Jagiellonia,Ekstraklasa,Poland,96,3
+Lechia Gdansk,Ekstraklasa,Poland,97,3
+ŁKS Łódź,Ekstraklasa,Poland,98,3
+Korona Kielce,Ekstraklasa,Poland,99,3
+Lech Poznan,Ekstraklasa,Poland,100,3
+Piast Gliwice,Ekstraklasa,Poland,101,3
+Raków Częstochowa,Ekstraklasa,Poland,102,3
+Slask Wroclaw,Ekstraklasa,Poland,103,3
+Wisla Krakow,Ekstraklasa,Poland,104,3
+Cracovia Krakow,Ekstraklasa,Poland,105,3
+Legia Warszawa,Ekstraklasa,Poland,106,3
+Pogon Szczecin,Ekstraklasa,Poland,107,3
+Zaglebie Lubin,Ekstraklasa,Poland,108,3
+Gornik Zabrze,Ekstraklasa,Poland,109,3
+Wisla Plock,Ekstraklasa,Poland,110,3
+Brann,Eliteserien,Norway,111,2
+Mjondalen,Eliteserien,Norway,112,2
+ODD Ballklubb,Eliteserien,Norway,113,2
+Valerenga,Eliteserien,Norway,114,2
+Bodo/Glimt,Eliteserien,Norway,115,2
+Haugesund,Eliteserien,Norway,116,2
+Kristiansund BK,Eliteserien,Norway,117,2
+Molde,Eliteserien,Norway,118,2
+Ranheim,Eliteserien,Norway,119,2
+Rosenborg,Eliteserien,Norway,120,2
+Sarpsborg 08 FF,Eliteserien,Norway,121,2
+Stromsgodset,Eliteserien,Norway,122,2
+Tromso,Eliteserien,Norway,123,2
+Viking,Eliteserien,Norway,124,2
+Lillestrom,Eliteserien,Norway,125,2
+Stabaek,Eliteserien,Norway,126,2
+PEC Zwolle,Eredivisie,Netherlands,127,1
+Willem II,Eredivisie,Netherlands,128,1
+Ajax,Eredivisie,Netherlands,129,1
+Emmen,Eredivisie,Netherlands,130,1
+Groningen,Eredivisie,Netherlands,131,1
+PSV Eindhoven,Eredivisie,Netherlands,132,1
+Twente,Eredivisie,Netherlands,133,1
+VVV Venlo,Eredivisie,Netherlands,134,1
+Vitesse,Eredivisie,Netherlands,135,1
+Waalwijk,Eredivisie,Netherlands,136,1
+ADO Den Haag,Eredivisie,Netherlands,137,1
+AZ Alkmaar,Eredivisie,Netherlands,138,1
+Feyenoord,Eredivisie,Netherlands,139,1
+Fortuna Sittard,Eredivisie,Netherlands,140,1
+Heerenveen,Eredivisie,Netherlands,141,1
+Heracles,Eredivisie,Netherlands,142,1
+Sparta Rotterdam,Eredivisie,Netherlands,143,1
+Utrecht,Eredivisie,Netherlands,144,1
+Athletic Club,La Liga,Spain,145,1
+Barcelona,La Liga,Spain,146,1
+Celta Vigo,La Liga,Spain,147,1
+Eibar,La Liga,Spain,148,1
+Granada CF,La Liga,Spain,149,1
+Leganes,La Liga,Spain,150,1
+Mallorca,La Liga,Spain,151,1
+Osasuna,La Liga,Spain,152,1
+Real Madrid,La Liga,Spain,153,1
+Real Sociedad,La Liga,Spain,154,1
+Valencia,La Liga,Spain,155,1
+Villarreal,La Liga,Spain,156,1
+Alaves,La Liga,Spain,157,1
+Atletico Madrid,La Liga,Spain,158,1
+Espanyol,La Liga,Spain,159,1
+Getafe,La Liga,Spain,160,1
+Levante,La Liga,Spain,161,1
+Real Betis,La Liga,Spain,162,1
+Sevilla,La Liga,Spain,163,1
+Valladolid,La Liga,Spain,164,1
+FC Voluntari,Liga I,Romania,165,3
+Sepsi OSK Sfantu Gheorghe,Liga I,Romania,166,3
+CFR 1907 Cluj,Liga I,Romania,167,3
+FC Astra Giurgiu,Liga I,Romania,168,3
+FC Botosani,Liga I,Romania,169,3
+Politehnica Iasi,Liga I,Romania,170,3
+AFC Hermannstadt,Liga I,Romania,171,3
+CS Universitatea Craiova,Liga I,Romania,172,3
+FC Clinceni,Liga I,Romania,173,3
+FCSB,Liga I,Romania,174,3
+Chindia Targoviste,Liga I,Romania,175,3
+Dinamo Bucuresti,Liga I,Romania,176,3
+GAZ Metan Medias,Liga I,Romania,177,3
+Viitorul Constanta,Liga I,Romania,178,3
+Crişul Chişineu Criş,Liga I,Romania,179,3
+Gloria Lunca Teuz Cermei,Liga I,Romania,180,3
+CS Mioveni,Liga I,Romania,181,3
+Lyon,Ligue 1,France,182,1
+Monaco,Ligue 1,France,183,1
+Amiens,Ligue 1,France,184,1
+Angers,Ligue 1,France,185,1
+Bordeaux,Ligue 1,France,186,1
+Dijon,Ligue 1,France,187,1
+Marseille,Ligue 1,France,188,1
+Montpellier,Ligue 1,France,189,1
+Nice,Ligue 1,France,190,1
+Reims,Ligue 1,France,191,1
+Rennes,Ligue 1,France,192,1
+Saint Etienne,Ligue 1,France,193,1
+Stade Brestois 29,Ligue 1,France,194,1
+Toulouse,Ligue 1,France,195,1
+Lille,Ligue 1,France,196,1
+Metz,Ligue 1,France,197,1
+Nantes,Ligue 1,France,198,1
+Nimes,Ligue 1,France,199,1
+Paris Saint Germain,Ligue 1,France,200,1
+Strasbourg,Ligue 1,France,201,1
+Kisvarda FC,Nemzeti Bajnokság,Hungary,202,3
+Mezokovesd-zsory,Nemzeti Bajnokság,Hungary,203,3
+Paks,Nemzeti Bajnokság,Hungary,204,3
+Puskas Academy,Nemzeti Bajnokság,Hungary,205,3
+Ujpest,Nemzeti Bajnokság,Hungary,206,3
+Zalaegerszegi TE,Nemzeti Bajnokság,Hungary,207,3
+Budapest Honved,Nemzeti Bajnokság,Hungary,208,3
+Diosgyori VTK,Nemzeti Bajnokság,Hungary,209,3
+Fehérvár FC,Nemzeti Bajnokság,Hungary,210,3
+Kaposvar,Nemzeti Bajnokság,Hungary,211,3
+Debreceni VSC,Nemzeti Bajnokság,Hungary,212,3
+Ferencvarosi TC,Nemzeti Bajnokság,Hungary,213,3
+Liverpool,Premier League,England,214,1
+Norwich,Premier League,England,215,1
+Aston Villa,Premier League,England,216,1
+Bournemouth,Premier League,England,217,1
+Brighton,Premier League,England,218,1
+Burnley,Premier League,England,219,1
+Crystal Palace,Premier League,England,220,1
+Everton,Premier League,England,221,1
+Manchester City,Premier League,England,222,1
+Sheffield Utd,Premier League,England,223,1
+Southampton,Premier League,England,224,1
+Tottenham,Premier League,England,225,1
+Watford,Premier League,England,226,1
+West Ham,Premier League,England,227,1
+Arsenal,Premier League,England,228,1
+Chelsea,Premier League,England,229,1
+Leicester,Premier League,England,230,1
+Manchester United,Premier League,England,231,1
+Newcastle,Premier League,England,232,1
+Wolves,Premier League,England,233,1
+Belenenses,Primeira Liga,Portugal,234,1
+Portimonense,Primeira Liga,Portugal,235,1
+Benfica,Primeira Liga,Portugal,236,1
+FC Porto,Primeira Liga,Portugal,237,1
+Famalicao,Primeira Liga,Portugal,238,1
+GIL Vicente,Primeira Liga,Portugal,239,1
+Pacos Ferreira,Primeira Liga,Portugal,240,1
+Santa Clara,Primeira Liga,Portugal,241,1
+Aves,Primeira Liga,Portugal,242,1
+Boavista,Primeira Liga,Portugal,243,1
+Maritimo,Primeira Liga,Portugal,244,1
+Moreirense,Primeira Liga,Portugal,245,1
+SC Braga,Primeira Liga,Portugal,246,1
+Sporting CP,Primeira Liga,Portugal,247,1
+Tondela,Primeira Liga,Portugal,248,1
+Vitoria Setubal,Primeira Liga,Portugal,249,1
+Rio Ave,Primeira Liga,Portugal,250,1
+Guimaraes,Primeira Liga,Portugal,251,1
+Celtic,Scottish Premiership,Scotland,252,2
+Hamilton Academical,Scottish Premiership,Scotland,253,2
+Hibernian,Scottish Premiership,Scotland,254,2
+Livingston,Scottish Premiership,Scotland,255,2
+Motherwell,Scottish Premiership,Scotland,256,2
+Ross County,Scottish Premiership,Scotland,257,2
+ST Johnstone,Scottish Premiership,Scotland,258,2
+ST Mirren,Scottish Premiership,Scotland,259,2
+Aberdeen,Scottish Premiership,Scotland,260,2
+Heart Of Midlothian,Scottish Premiership,Scotland,261,2
+Kilmarnock,Scottish Premiership,Scotland,262,2
+Rangers,Scottish Premiership,Scotland,263,2
+Fiorentina,Serie A,Italy,264,1
+Juventus,Serie A,Italy,265,1
+Napoli,Serie A,Italy,266,1
+Parma,Serie A,Italy,267,1
+AC Milan,Serie A,Italy,268,1
+AS Roma,Serie A,Italy,269,1
+Atalanta,Serie A,Italy,270,1
+Bologna,Serie A,Italy,271,1
+Brescia,Serie A,Italy,272,1
+Cagliari,Serie A,Italy,273,1
+Genoa,Serie A,Italy,274,1
+Hellas Verona,Serie A,Italy,275,1
+Lazio,Serie A,Italy,276,1
+Sampdoria,Serie A,Italy,277,1
+Sassuolo,Serie A,Italy,278,1
+Spal,Serie A,Italy,279,1
+Torino,Serie A,Italy,280,1
+Udinese,Serie A,Italy,281,1
+Inter,Serie A,Italy,282,1
+Lecce,Serie A,Italy,283,1
+Aris Thessalonikis,Super League Greece,Greece,284,3
+Asteras Tripolis,Super League Greece,Greece,285,3
+Lamia,Super League Greece,Greece,286,3
+OFI,Super League Greece,Greece,287,3
+Olympiakos Piraeus,Super League Greece,Greece,288,3
+Panathinaikos,Super League Greece,Greece,289,3
+AEK Athens FC,Super League Greece,Greece,290,3
+Atromitos,Super League Greece,Greece,291,3
+Larisa,Super League Greece,Greece,292,3
+PAOK,Super League Greece,Greece,293,3
+Panetolikos,Super League Greece,Greece,294,3
+Panionios,Super League Greece,Greece,295,3
+Volos NFC,Super League Greece,Greece,296,3
+Xanthi FC,Super League Greece,Greece,297,3
+Apollon Smirnis,Super League Greece,Greece,298,3
+Denizlispor,Super Lig,Turkey,299,2
+Galatasaray,Super Lig,Turkey,300,2
+Alanyaspor,Super Lig,Turkey,301,2
+Beşiktaş,Super Lig,Turkey,302,2
+Gençlerbirliği S.K.,Super Lig,Turkey,303,2
+Kayserispor,Super Lig,Turkey,304,2
+Rizespor,Super Lig,Turkey,305,2
+Sivasspor,Super Lig,Turkey,306,2
+Ankaragücü,Super Lig,Turkey,307,2
+Antalyaspor,Super Lig,Turkey,308,2
+Başakşehir,Super Lig,Turkey,309,2
+Göztepe,Super Lig,Turkey,310,2
+Kasımpaşa,Super Lig,Turkey,311,2
+Konyaspor,Super Lig,Turkey,312,2
+Trabzonspor,Super Lig,Turkey,313,2
+Yeni Malatyaspor,Super Lig,Turkey,314,2
+Fenerbahçe,Super Lig,Turkey,315,2
+Gaziantep FK,Super Lig,Turkey,316,2
+FC Basel 1893,Swiss Super League,Switzerland,317,2
+FC Sion,Swiss Super League,Switzerland,318,2
+FC Luzern,Swiss Super League,Switzerland,319,2
+FC ST. Gallen,Swiss Super League,Switzerland,320,2
+FC Thun,Swiss Super League,Switzerland,321,2
+Neuchatel Xamax FC,Swiss Super League,Switzerland,322,2
+BSC Young Boys,Swiss Super League,Switzerland,323,2
+FC Lugano,Swiss Super League,Switzerland,324,2
+FC Zurich,Swiss Super League,Switzerland,325,2
+Servette FC,Swiss Super League,Switzerland,326,2
+FC Vaduz,Swiss Super League,Switzerland,327,2
+Mjallby AIF,Allsvenskan,Sweden,328,2
+Varbergs BoIS FC,Allsvenskan,Sweden,329,2
+Jonkopings Sodra,Allsvenskan,Sweden,330,2
+Beerschot VA,Belgian Pro League,Belgium,331,1
+OH Leuven,Belgian Pro League,Belgium,332,1
+Seraing United,Belgian Pro League,Belgium,333,1
+Arminia Bielefeld,Bundesliga,Germany,334,1
+VfB Stuttgart,Bundesliga,Germany,335,1
+Holstein Kiel,Bundesliga,Germany,336,1
+Ried,Bundesliga Austria,Austria,337,2
+Austria Klagenfurt,Bundesliga Austria,Austria,338,2
+Zbrojovka Brno,Czech First League,Czechia,339,3
+Pardubice,Czech First League,Czechia,340,3
+Vejle,Danish Superliga,Denmark,341,2
+Podbeskidzie,Ekstraklasa,Poland,342,3
+Stal Mielec,Ekstraklasa,Poland,343,3
+Warta Poznań,Ekstraklasa,Poland,344,3
+Aalesund,Eliteserien,Norway,345,2
+Sandefjord,Eliteserien,Norway,346,2
+Start,Eliteserien,Norway,347,2
+Sogndal,Eliteserien,Norway,348,2
+Almere City FC,Eredivisie,Netherlands,349,1
+De Graafschap,Eredivisie,Netherlands,350,1
+FC Volendam,Eredivisie,Netherlands,351,1
+NAC Breda,Eredivisie,Netherlands,352,1
+NEC Nijmegen,Eredivisie,Netherlands,353,1
+Roda,Eredivisie,Netherlands,354,1
+Cadiz,La Liga,Spain,355,1
+Huesca,La Liga,Spain,356,1
+Elche,La Liga,Spain,357,1
+Arges Pitesti,Liga I,Romania,358,3
+Uta Arad,Liga I,Romania,359,3
+Dunarea Calarasi,Liga I,Romania,360,3
+Lens,Ligue 1,France,361,1
+Lorient,Ligue 1,France,362,1
+MTK Budapest,Nemzeti Bajnokság,Hungary,363,3
+Budafoki LC,Nemzeti Bajnokság,Hungary,364,3
+Fulham,Premier League,England,365,1
+Leeds,Premier League,England,366,1
+West Brom,Premier League,England,367,1
+Nacional,Primeira Liga,Portugal,368,1
+Farense,Primeira Liga,Portugal,369,1
+Arouca,Primeira Liga,Portugal,370,1
+Dundee Utd,Scottish Premiership,Scotland,371,2
+Dunfermline,Scottish Premiership,Scotland,372,2
+Raith Rovers,Scottish Premiership,Scotland,373,2
+Dundee,Scottish Premiership,Scotland,374,2
+Crotone,Serie A,Italy,375,1
+Benevento,Serie A,Italy,376,1
+Spezia,Serie A,Italy,377,1
+PAS Giannina,Super League Greece,Greece,378,3
+Fatih Karagümrük,Super Lig,Turkey,379,2
+Erzurumspor FK,Super Lig,Turkey,380,2
+Hatayspor,Super Lig,Turkey,381,2
+Lausanne,Swiss Super League,Switzerland,382,2
+Halmstad,Allsvenskan,Sweden,383,2
+Degerfors IF,Allsvenskan,Sweden,384,2
+Union St. Gilloise,Belgian Pro League,Belgium,385,1
+RWDM,Belgian Pro League,Belgium,386,1
+SpVgg Greuther Furth,Bundesliga,Germany,387,1
+Vfl Bochum,Bundesliga,Germany,388,1
+Hamburger SV,Bundesliga,Germany,389,1
+Hradec Králové,Czech First League,Czechia,390,3
+Vlašim,Czech First League,Czechia,391,3
+Viborg,Danish Superliga,Denmark,392,2
+Nieciecza,Ekstraklasa,Poland,393,3
+Radomiak Radom,Ekstraklasa,Poland,394,3
+Górnik Łęczna,Ekstraklasa,Poland,395,3
+jerv,Eliteserien,Norway,396,2
+GO Ahead Eagles,Eredivisie,Netherlands,397,1
+Cambuur,Eredivisie,Netherlands,398,1
+FC Eindhoven,Eredivisie,Netherlands,399,1
+Excelsior,Eredivisie,Netherlands,400,1
+Rayo Vallecano,La Liga,Spain,401,1
+U Craiova 1948,Liga I,Romania,402,3
+Farul Constanta,Liga I,Romania,403,3
+Rapid,Liga I,Romania,404,3
+Estac Troyes,Ligue 1,France,405,1
+Clermont Foot,Ligue 1,France,406,1
+Auxerre,Ligue 1,France,407,1
+Gyirmot SE,Nemzeti Bajnokság,Hungary,408,3
+Brentford,Premier League,England,409,1
+Vizela,Primeira Liga,Portugal,410,1
+Estoril,Primeira Liga,Portugal,411,1
+Chaves,Primeira Liga,Portugal,412,1
+Inverness CT,Scottish Premiership,Scotland,413,2
+Partick,Scottish Premiership,Scotland,414,2
+Arbroath,Scottish Premiership,Scotland,415,2
+Empoli,Serie A,Italy,416,1
+Salernitana,Serie A,Italy,417,1
+Venezia,Serie A,Italy,418,1
+Ionikos,Super League Greece,Greece,419,3
+Veria,Super League Greece,Greece,420,3
+Altay,Super Lig,Turkey,421,2
+Adana Demirspor,Super Lig,Turkey,422,2
+Giresunspor,Super Lig,Turkey,423,2
+Grasshoppers,Swiss Super League,Switzerland,424,2
+FC Schaffhausen,Swiss Super League,Switzerland,425,2
+IFK Varnamo,Allsvenskan,Sweden,426,2
+Osters IF,Allsvenskan,Sweden,427,2
+KVC Westerlo,Belgian Pro League,Belgium,428,1
+Austria Lustenau,Bundesliga Austria,Austria,429,2
+Vyškov,Czech First League,Czechia,430,3
+Miedz Legnica,Ekstraklasa,Poland,431,3
+Widzew Łódź,Ekstraklasa,Poland,432,3
+Ham-Kam,Eliteserien,Norway,433,2
+Kongsvinger,Eliteserien,Norway,434,2
+MVV,Eredivisie,Netherlands,435,1
+Almeria,La Liga,Spain,436,1
+Girona,La Liga,Spain,437,1
+Universitatea Craiova,Liga I,Romania,438,3
+Universitatea Cluj,Liga I,Romania,439,3
+Petrolul Ploiesti,Liga I,Romania,440,3
+SCM Gloria Buzău,Liga I,Romania,441,3
+Ajaccio,Ligue 1,France,442,1
+Kecskeméti TE,Nemzeti Bajnokság,Hungary,443,3
+Vasas,Nemzeti Bajnokság,Hungary,444,3
+Nottingham Forest,Premier League,England,445,1
+Casa Pia,Primeira Liga,Portugal,446,1
+Estrela,Primeira Liga,Portugal,447,1
+Queen's Park,Scottish Premiership,Scotland,448,2
+Ayr Utd,Scottish Premiership,Scotland,449,2
+Monza,Serie A,Italy,450,1
+Cremonese,Serie A,Italy,451,1
+Levadiakos,Super League Greece,Greece,452,3
+İstanbulspor,Super Lig,Turkey,453,2
+Ümraniyespor,Super Lig,Turkey,454,2
+FC Winterthur,Swiss Super League,Switzerland,455,2
+Stade Lausanne-Ouchy,Swiss Super League,Switzerland,456,2
+IF Brommapojkarna,Allsvenskan,Sweden,457,2
+Utsikten,Allsvenskan,Sweden,458,2
+Lommel United,Belgian Pro League,Belgium,459,1
+SV Darmstadt 98,Bundesliga,Germany,460,1
+FC BW Linz,Bundesliga Austria,Austria,461,2
+Táborsko,Czech First League,Czechia,462,3
+Hvidovre,Danish Superliga,Denmark,463,2
+Puszcza Niepołomice,Ekstraklasa,Poland,464,3
+Ruch Chorzów,Ekstraklasa,Poland,465,3
+Dordrecht,Eredivisie,Netherlands,466,1
+Las Palmas,La Liga,Spain,467,1
+Oţelul,Liga I,Romania,468,3
+Csikszereda,Liga I,Romania,469,3
+Le Havre,Ligue 1,France,470,1
+Luton,Premier League,England,471,1
+AVS,Primeira Liga,Portugal,472,1
+Airdrie United,Scottish Premiership,Scotland,473,2
+Frosinone,Serie A,Italy,474,1
+Kifisia,Super League Greece,Greece,475,3
+Panserraikos,Super League Greece,Greece,476,3
+Pendikspor,Super Lig,Turkey,477,2
+Samsunspor,Super Lig,Turkey,478,2
+Yverdon Sport,Swiss Super League,Switzerland,479,2
+Gais,Allsvenskan,Sweden,480,2
+Vasteras SK FK,Allsvenskan,Sweden,481,2
+Landskrona BoIS,Allsvenskan,Sweden,482,2
+Dender,Belgian Pro League,Belgium,483,1
+Patro Eisden,Belgian Pro League,Belgium,484,1
+Borussia Mönchengladbach,Bundesliga,Germany,485,1
+VfL Bochum,Bundesliga,Germany,486,1
+1. FC Heidenheim,Bundesliga,Germany,487,1
+Bayern München,Bundesliga,Germany,488,1
+FC St. Pauli,Bundesliga,Germany,489,1
+SV Elversberg,Bundesliga,Germany,490,1
+Grazer AK,Bundesliga Austria,Austria,491,2
+Dukla Praha,Czech First League,Czechia,492,3
+Chrudim,Czech First League,Czechia,493,3
+GKS Katowice,Ekstraklasa,Poland,494,3
+Motor Lublin,Ekstraklasa,Poland,495,3
+Fredrikstad,Eliteserien,Norway,496,2
+KFUM Oslo,Eliteserien,Norway,497,2
+Moss,Eliteserien,Norway,498,2
+Den Bosch,Eredivisie,Netherlands,499,1
+Telstar,Eredivisie,Netherlands,500,1
+Unirea Slobozia,Liga I,Romania,501,3
+Metaloglobus,Liga I,Romania,502,3
+Gyori ETO FC,Nemzeti Bajnokság,Hungary,503,3
+Nyiregyhaza,Nemzeti Bajnokság,Hungary,504,3
+Ipswich,Premier League,England,505,1
+Como,Serie A,Italy,506,1
+Kallithea,Super League Greece,Greece,507,3
+Eyüpspor,Super Lig,Turkey,508,2
+Bodrum FK,Super Lig,Turkey,509,2
+FC Aarau,Swiss Super League,Switzerland,510,2

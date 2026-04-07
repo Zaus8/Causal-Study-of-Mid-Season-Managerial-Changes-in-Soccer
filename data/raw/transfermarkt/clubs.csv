@@ -1,0 +1,473 @@
+club_name,league,country
+Manchester City,Premier League,England
+Liverpool FC,Premier League,England
+Tottenham Hotspur,Premier League,England
+Chelsea FC,Premier League,England
+Manchester United,Premier League,England
+Arsenal FC,Premier League,England
+Everton FC,Premier League,England
+Leicester City,Premier League,England
+Wolverhampton Wanderers,Premier League,England
+West Ham United,Premier League,England
+AFC Bournemouth,Premier League,England
+Newcastle United,Premier League,England
+Aston Villa,Premier League,England
+Southampton FC,Premier League,England
+Brighton & Hove Albion,Premier League,England
+Watford FC,Premier League,England
+Crystal Palace,Premier League,England
+Burnley FC,Premier League,England
+Norwich City,Premier League,England
+Sheffield United,Premier League,England
+Fulham FC,Premier League,England
+Leeds United,Premier League,England
+West Bromwich Albion,Premier League,England
+Brentford FC,Premier League,England
+Nottingham Forest,Premier League,England
+Luton Town,Premier League,England
+Ipswich Town,Premier League,England
+FC Barcelona,La Liga,Spain
+Real Madrid,La Liga,Spain
+Atlético de Madrid,La Liga,Spain
+Valencia CF,La Liga,Spain
+Real Sociedad,La Liga,Spain
+Sevilla FC,La Liga,Spain
+Real Betis Balompié,La Liga,Spain
+Athletic Bilbao,La Liga,Spain
+Villarreal CF,La Liga,Spain
+Getafe CF,La Liga,Spain
+Celta de Vigo,La Liga,Spain
+RCD Espanyol Barcelona,La Liga,Spain
+CD Leganés,La Liga,Spain
+Deportivo Alavés,La Liga,Spain
+Levante UD,La Liga,Spain
+Real Valladolid CF,La Liga,Spain
+RCD Mallorca,La Liga,Spain
+CA Osasuna,La Liga,Spain
+Granada CF,La Liga,Spain
+SD Eibar,La Liga,Spain
+SD Huesca,La Liga,Spain
+Cádiz CF,La Liga,Spain
+Elche CF,La Liga,Spain
+Rayo Vallecano,La Liga,Spain
+Girona FC,La Liga,Spain
+UD Almería,La Liga,Spain
+UD Las Palmas,La Liga,Spain
+Bayern Munich,Bundesliga,Germany
+Borussia Dortmund,Bundesliga,Germany
+RB Leipzig,Bundesliga,Germany
+Bayer 04 Leverkusen,Bundesliga,Germany
+Borussia Mönchengladbach,Bundesliga,Germany
+TSG 1899 Hoffenheim,Bundesliga,Germany
+FC Schalke 04,Bundesliga,Germany
+Hertha BSC,Bundesliga,Germany
+Eintracht Frankfurt,Bundesliga,Germany
+VfL Wolfsburg,Bundesliga,Germany
+SV Werder Bremen,Bundesliga,Germany
+SC Freiburg,Bundesliga,Germany
+1.FSV Mainz 05,Bundesliga,Germany
+FC Augsburg,Bundesliga,Germany
+1.FC Köln,Bundesliga,Germany
+Fortuna Düsseldorf,Bundesliga,Germany
+1.FC Union Berlin,Bundesliga,Germany
+SC Paderborn 07,Bundesliga,Germany
+VfB Stuttgart,Bundesliga,Germany
+Arminia Bielefeld,Bundesliga,Germany
+VfL Bochum,Bundesliga,Germany
+SpVgg Greuther Fürth,Bundesliga,Germany
+1.FC Heidenheim 1846,Bundesliga,Germany
+SV Darmstadt 98,Bundesliga,Germany
+FC St. Pauli,Bundesliga,Germany
+Holstein Kiel,Bundesliga,Germany
+Juventus FC,Serie A,Italy
+Inter Milan,Serie A,Italy
+SSC Napoli,Serie A,Italy
+AC Milan,Serie A,Italy
+AS Roma,Serie A,Italy
+SS Lazio,Serie A,Italy
+ACF Fiorentina,Serie A,Italy
+Atalanta BC,Serie A,Italy
+US Sassuolo,Serie A,Italy
+Cagliari Calcio,Serie A,Italy
+Torino FC,Serie A,Italy
+Genoa CFC,Serie A,Italy
+UC Sampdoria,Serie A,Italy
+Bologna FC 1909,Serie A,Italy
+Parma Calcio 1913,Serie A,Italy
+Udinese Calcio,Serie A,Italy
+Hellas Verona,Serie A,Italy
+Brescia Calcio (- 2025),Serie A,Italy
+SPAL,Serie A,Italy
+US Lecce,Serie A,Italy
+Spezia Calcio,Serie A,Italy
+FC Crotone,Serie A,Italy
+Benevento Calcio,Serie A,Italy
+FC Empoli,Serie A,Italy
+Venezia FC,Serie A,Italy
+US Salernitana 1919,Serie A,Italy
+AC Monza,Serie A,Italy
+US Cremonese,Serie A,Italy
+Frosinone Calcio,Serie A,Italy
+Como 1907,Serie A,Italy
+Paris Saint-Germain,Ligue 1,France
+Olympique Lyon,Ligue 1,France
+AS Monaco,Ligue 1,France
+LOSC Lille,Ligue 1,France
+Olympique Marseille,Ligue 1,France
+OGC Nice,Ligue 1,France
+Stade Rennais FC,Ligue 1,France
+FC Girondins Bordeaux,Ligue 1,France
+FC Nantes,Ligue 1,France
+AS Saint-Étienne,Ligue 1,France
+RC Strasbourg Alsace,Ligue 1,France
+Angers SCO,Ligue 1,France
+Montpellier HSC,Ligue 1,France
+Stade Reims,Ligue 1,France
+FC Toulouse,Ligue 1,France
+Amiens SC,Ligue 1,France
+FC Metz,Ligue 1,France
+Dijon FCO,Ligue 1,France
+Nîmes Olympique,Ligue 1,France
+Stade Brestois 29,Ligue 1,France
+RC Lens,Ligue 1,France
+FC Lorient,Ligue 1,France
+ESTAC Troyes,Ligue 1,France
+Clermont Foot 63,Ligue 1,France
+AJ Auxerre,Ligue 1,France
+AC Ajaccio,Ligue 1,France
+Le Havre AC,Ligue 1,France
+Ajax Amsterdam,Eredivisie,Netherlands
+PSV Eindhoven,Eredivisie,Netherlands
+AZ Alkmaar,Eredivisie,Netherlands
+Feyenoord Rotterdam,Eredivisie,Netherlands
+FC Utrecht,Eredivisie,Netherlands
+Vitesse Arnhem,Eredivisie,Netherlands
+FC Groningen,Eredivisie,Netherlands
+SC Heerenveen,Eredivisie,Netherlands
+Heracles Almelo,Eredivisie,Netherlands
+Willem II Tilburg,Eredivisie,Netherlands
+FC Twente Enschede,Eredivisie,Netherlands
+ADO Den Haag,Eredivisie,Netherlands
+PEC Zwolle,Eredivisie,Netherlands
+Sparta Rotterdam,Eredivisie,Netherlands
+FC Emmen,Eredivisie,Netherlands
+Fortuna Sittard,Eredivisie,Netherlands
+VVV-Venlo,Eredivisie,Netherlands
+RKC Waalwijk,Eredivisie,Netherlands
+NEC Nijmegen,Eredivisie,Netherlands
+Go Ahead Eagles,Eredivisie,Netherlands
+SC Cambuur Leeuwarden,Eredivisie,Netherlands
+FC Volendam,Eredivisie,Netherlands
+Excelsior Rotterdam,Eredivisie,Netherlands
+Almere City FC,Eredivisie,Netherlands
+NAC Breda,Eredivisie,Netherlands
+SL Benfica,Primeira Liga,Portugal
+FC Porto,Primeira Liga,Portugal
+Sporting CP,Primeira Liga,Portugal
+SC Braga,Primeira Liga,Portugal
+Vitória Guimarães SC,Primeira Liga,Portugal
+FC Famalicão,Primeira Liga,Portugal
+Portimonense SAD,Primeira Liga,Portugal
+Rio Ave FC,Primeira Liga,Portugal
+CS Marítimo,Primeira Liga,Portugal
+B SAD,Primeira Liga,Portugal
+Boavista FC,Primeira Liga,Portugal
+CD Santa Clara,Primeira Liga,Portugal
+Moreirense FC,Primeira Liga,Portugal
+FC Paços de Ferreira,Primeira Liga,Portugal
+Desportivo Aves (- 2020),Primeira Liga,Portugal
+Vitória Setúbal FC,Primeira Liga,Portugal
+CD Tondela,Primeira Liga,Portugal
+Gil Vicente FC,Primeira Liga,Portugal
+SC Farense,Primeira Liga,Portugal
+CD Nacional,Primeira Liga,Portugal
+GD Estoril Praia,Primeira Liga,Portugal
+FC Arouca,Primeira Liga,Portugal
+FC Vizela,Primeira Liga,Portugal
+GD Chaves,Primeira Liga,Portugal
+Casa Pia AC,Primeira Liga,Portugal
+CF Estrela Amadora,Primeira Liga,Portugal
+Avs Futebol,Primeira Liga,Portugal
+Club Brugge KV,Belgian Pro League,Belgium
+RSC Anderlecht,Belgian Pro League,Belgium
+KRC Genk,Belgian Pro League,Belgium
+KAA Gent,Belgian Pro League,Belgium
+Standard Liège,Belgian Pro League,Belgium
+Royal Antwerp FC,Belgian Pro League,Belgium
+Cercle Brugge,Belgian Pro League,Belgium
+Royal Charleroi SC,Belgian Pro League,Belgium
+Zulte Waregem,Belgian Pro League,Belgium
+Sint-Truidense VV,Belgian Pro League,Belgium
+Royal Excel Mouscron (-2022),Belgian Pro League,Belgium
+KAS Eupen,Belgian Pro League,Belgium
+KV Oostende (-2024),Belgian Pro League,Belgium
+KV Mechelen,Belgian Pro League,Belgium
+KV Kortrijk,Belgian Pro League,Belgium
+KVRS Waasland - SK Beveren,Belgian Pro League,Belgium
+Oud-Heverlee Leuven,Belgian Pro League,Belgium
+Beerschot VA,Belgian Pro League,Belgium
+Union Saint-Gilloise,Belgian Pro League,Belgium
+RFC Seraing,Belgian Pro League,Belgium
+KVC Westerlo,Belgian Pro League,Belgium
+RWD Molenbeek,Belgian Pro League,Belgium
+FCV Dender EH,Belgian Pro League,Belgium
+Celtic FC,Scottish Premiership,Scotland
+Rangers FC,Scottish Premiership,Scotland
+Heart of Midlothian FC,Scottish Premiership,Scotland
+Aberdeen FC,Scottish Premiership,Scotland
+Hibernian FC,Scottish Premiership,Scotland
+Motherwell FC,Scottish Premiership,Scotland
+Kilmarnock FC,Scottish Premiership,Scotland
+Ross County FC,Scottish Premiership,Scotland
+Livingston FC,Scottish Premiership,Scotland
+St. Johnstone FC,Scottish Premiership,Scotland
+Hamilton Academical FC,Scottish Premiership,Scotland
+St. Mirren FC,Scottish Premiership,Scotland
+Dundee United FC,Scottish Premiership,Scotland
+Dundee FC,Scottish Premiership,Scotland
+Galatasaray,Super Lig,Turkey
+Trabzonspor,Super Lig,Turkey
+Fenerbahce,Super Lig,Turkey
+Besiktas JK,Super Lig,Turkey
+Basaksehir FK,Super Lig,Turkey
+Kasimpasa,Super Lig,Turkey
+Sivasspor,Super Lig,Turkey
+Caykur Rizespor,Super Lig,Turkey
+Yeni Malatyaspor,Super Lig,Turkey
+Kayserispor,Super Lig,Turkey
+Alanyaspor,Super Lig,Turkey
+Konyaspor,Super Lig,Turkey
+Gaziantep FK,Super Lig,Turkey
+Antalyaspor,Super Lig,Turkey
+Göztepe,Super Lig,Turkey
+Denizlispor,Super Lig,Turkey
+Genclerbirligi Ankara,Super Lig,Turkey
+MKE Ankaragücü,Super Lig,Turkey
+Fatih Karagümrük,Super Lig,Turkey
+Hatayspor,Super Lig,Turkey
+Büyüksehir Belediye Erzurumspor,Super Lig,Turkey
+Adana Demirspor,Super Lig,Turkey
+Giresunspor,Super Lig,Turkey
+Altay SK,Super Lig,Turkey
+Istanbulspor,Super Lig,Turkey
+Ümraniyespor,Super Lig,Turkey
+Samsunspor,Super Lig,Turkey
+Pendikspor,Super Lig,Turkey
+Eyüpspor,Super Lig,Turkey
+Bodrum FK,Super Lig,Turkey
+Red Bull Salzburg,Bundesliga Austria,Austria
+Rapid Vienna,Bundesliga Austria,Austria
+LASK,Bundesliga Austria,Austria
+SK Sturm Graz,Bundesliga Austria,Austria
+Austria Vienna,Bundesliga Austria,Austria
+Wolfsberger AC,Bundesliga Austria,Austria
+FC Admira Wacker Mödling,Bundesliga Austria,Austria
+SCR Altach,Bundesliga Austria,Austria
+SKN St. Pölten,Bundesliga Austria,Austria
+TSV Hartberg,Bundesliga Austria,Austria
+SV Mattersburg,Bundesliga Austria,Austria
+WSG Tirol,Bundesliga Austria,Austria
+SV Ried,Bundesliga Austria,Austria
+SK Austria Klagenfurt,Bundesliga Austria,Austria
+SC Austria Lustenau,Bundesliga Austria,Austria
+FC Blau-Weiss Linz,Bundesliga Austria,Austria
+Grazer AK 1902,Bundesliga Austria,Austria
+FC Basel 1893,Swiss Super League,Switzerland
+BSC Young Boys,Swiss Super League,Switzerland
+FC Zürich,Swiss Super League,Switzerland
+FC Sion,Swiss Super League,Switzerland
+FC Luzern,Swiss Super League,Switzerland
+FC Lugano,Swiss Super League,Switzerland
+FC St. Gallen 1879,Swiss Super League,Switzerland
+FC Thun,Swiss Super League,Switzerland
+Servette FC,Swiss Super League,Switzerland
+Neuchâtel Xamax FCS,Swiss Super League,Switzerland
+FC Lausanne-Sport,Swiss Super League,Switzerland
+FC Vaduz,Swiss Super League,Switzerland
+Grasshopper Club Zurich,Swiss Super League,Switzerland
+FC Winterthur,Swiss Super League,Switzerland
+Yverdon Sport FC,Swiss Super League,Switzerland
+FC Stade-Lausanne-Ouchy,Swiss Super League,Switzerland
+FC Copenhagen,Danish Superliga,Denmark
+FC Midtjylland,Danish Superliga,Denmark
+FC Nordsjaelland,Danish Superliga,Denmark
+Bröndby IF,Danish Superliga,Denmark
+Esbjerg fB,Danish Superliga,Denmark
+Aalborg BK,Danish Superliga,Denmark
+Aarhus GF,Danish Superliga,Denmark
+Odense Boldklub,Danish Superliga,Denmark
+SönderjyskE,Danish Superliga,Denmark
+Randers FC,Danish Superliga,Denmark
+Silkeborg IF,Danish Superliga,Denmark
+AC Horsens,Danish Superliga,Denmark
+Hobro IK,Danish Superliga,Denmark
+Lyngby Boldklub,Danish Superliga,Denmark
+Vejle Boldklub,Danish Superliga,Denmark
+Viborg FF,Danish Superliga,Denmark
+Hvidovre IF,Danish Superliga,Denmark
+Sönderjyske Fodbold,Danish Superliga,Denmark
+Rosenborg BK,Eliteserien,Norway
+SK Brann,Eliteserien,Norway
+Molde FK,Eliteserien,Norway
+Vålerenga Fotball Elite,Eliteserien,Norway
+Sarpsborg 08 FF,Eliteserien,Norway
+Stabæk Fotball,Eliteserien,Norway
+FK Haugesund,Eliteserien,Norway
+Odds BK,Eliteserien,Norway
+Kristiansund BK,Eliteserien,Norway
+IK Start,Eliteserien,Norway
+Aalesunds FK,Eliteserien,Norway
+Viking FK,Eliteserien,Norway
+Mjøndalen IF,Eliteserien,Norway
+FK Bodø/Glimt,Eliteserien,Norway
+Strømsgodset IF,Eliteserien,Norway
+Sandefjord Fotball,Eliteserien,Norway
+Lillestrøm SK,Eliteserien,Norway
+Tromsø IL,Eliteserien,Norway
+Hamarkameratene,Eliteserien,Norway
+FK Jerv,Eliteserien,Norway
+Fredrikstad FK,Eliteserien,Norway
+KFUM-Kameratene Oslo,Eliteserien,Norway
+Bryne FK,Eliteserien,Norway
+Malmö FF,Allsvenskan,Sweden
+AIK,Allsvenskan,Sweden
+Helsingborgs IF,Allsvenskan,Sweden
+IFK Göteborg,Allsvenskan,Sweden
+IFK Norrköping,Allsvenskan,Sweden
+Djurgårdens IF,Allsvenskan,Sweden
+Hammarby IF,Allsvenskan,Sweden
+BK Häcken,Allsvenskan,Sweden
+Kalmar FF,Allsvenskan,Sweden
+IF Elfsborg,Allsvenskan,Sweden
+Örebro SK,Allsvenskan,Sweden
+Östersunds FK,Allsvenskan,Sweden
+IK Sirius,Allsvenskan,Sweden
+Mjällby AIF,Allsvenskan,Sweden
+Falkenbergs FF,Allsvenskan,Sweden
+Varbergs BoIS,Allsvenskan,Sweden
+Degerfors IF,Allsvenskan,Sweden
+Halmstads BK,Allsvenskan,Sweden
+GIF Sundsvall,Allsvenskan,Sweden
+IFK Värnamo,Allsvenskan,Sweden
+IF Brommapojkarna,Allsvenskan,Sweden
+Västerås SK,Allsvenskan,Sweden
+GAIS,Allsvenskan,Sweden
+Östers IF,Allsvenskan,Sweden
+Legia Warszawa,Ekstraklasa,Poland
+Lech Poznan,Ekstraklasa,Poland
+Jagiellonia Bialystok,Ekstraklasa,Poland
+Lechia Gdansk,Ekstraklasa,Poland
+Pogon Szczecin,Ekstraklasa,Poland
+Piast Gliwice,Ekstraklasa,Poland
+Zaglebie Lubin,Ekstraklasa,Poland
+Cracovia,Ekstraklasa,Poland
+Wisla Kraków,Ekstraklasa,Poland
+Górnik Zabrze,Ekstraklasa,Poland
+Slask Wroclaw,Ekstraklasa,Poland
+Wisla Plock,Ekstraklasa,Poland
+Arka Gdynia,Ekstraklasa,Poland
+Korona Kielce,Ekstraklasa,Poland
+Raków Częstochowa,Ekstraklasa,Poland
+LKS Lodz,Ekstraklasa,Poland
+Warta Poznan,Ekstraklasa,Poland
+Stal Mielec,Ekstraklasa,Poland
+Podbeskidzie Bielsko-Biala,Ekstraklasa,Poland
+Radomiak Radom,Ekstraklasa,Poland
+Bruk-Bet Termalica Nieciecza,Ekstraklasa,Poland
+Gornik Leczna,Ekstraklasa,Poland
+Widzew Lodz,Ekstraklasa,Poland
+Miedz Legnica,Ekstraklasa,Poland
+Puszcza Niepolomice,Ekstraklasa,Poland
+Ruch Chorzow,Ekstraklasa,Poland
+Motor Lublin,Ekstraklasa,Poland
+GKS Katowice,Ekstraklasa,Poland
+SK Slavia Prague,Czech First League,Czechia
+AC Sparta Prague,Czech First League,Czechia
+FC Viktoria Plzen,Czech First League,Czechia
+FK Mlada Boleslav,Czech First League,Czechia
+FC Slovan Liberec,Czech First League,Czechia
+FK Jablonec,Czech First League,Czechia
+FC Banik Ostrava,Czech First League,Czechia
+SK Sigma Olomouc,Czech First League,Czechia
+FC Fastav Zlin,Czech First League,Czechia
+Bohemians Prague 1905,Czech First League,Czechia
+1.FC Slovacko,Czech First League,Czechia
+MFK Karvina,Czech First League,Czechia
+SK Dynamo Ceske Budejovice,Czech First League,Czechia
+FK Teplice,Czech First League,Czechia
+1.FK Pribram,Czech First League,Czechia
+Slezsky FC Opava,Czech First League,Czechia
+FC Zbrojovka Brno,Czech First League,Czechia
+FK Pardubice,Czech First League,Czechia
+FC Hradec Kralove,Czech First League,Czechia
+FC Trinity Zlin,Czech First League,Czechia
+FC Zlin,Czech First League,Czechia
+FK Dukla Prague,Czech First League,Czechia
+Ferencvárosi TC,Nemzeti Bajnokság,Hungary
+MOL Vidi FC,Nemzeti Bajnokság,Hungary
+Budapest Honvéd FC,Nemzeti Bajnokság,Hungary
+Puskás Akadémia FC,Nemzeti Bajnokság,Hungary
+Debreceni VSC,Nemzeti Bajnokság,Hungary
+Diósgyőri VTK,Nemzeti Bajnokság,Hungary
+Mezőkövesd Zsóry FC,Nemzeti Bajnokság,Hungary
+Újpest FC,Nemzeti Bajnokság,Hungary
+Kisvárda FC,Nemzeti Bajnokság,Hungary
+Zalaegerszegi TE FC,Nemzeti Bajnokság,Hungary
+Paksi FC,Nemzeti Bajnokság,Hungary
+Kaposvári Rákóczi FC,Nemzeti Bajnokság,Hungary
+Videoton FC Fehérvár,Nemzeti Bajnokság,Hungary
+MTK Budapest,Nemzeti Bajnokság,Hungary
+Budafoki MTE,Nemzeti Bajnokság,Hungary
+Gyirmót FC Győr,Nemzeti Bajnokság,Hungary
+Fehérvár FC,Nemzeti Bajnokság,Hungary
+Kecskeméti TE,Nemzeti Bajnokság,Hungary
+Vasas FC,Nemzeti Bajnokság,Hungary
+ETO FC Győr,Nemzeti Bajnokság,Hungary
+Nyíregyháza Spartacus,Nemzeti Bajnokság,Hungary
+FCSB,Liga I,Romania
+CFR Cluj,Liga I,Romania
+CS Universitatea Craiova,Liga I,Romania
+FC Viitorul Constanta,Liga I,Romania
+Astra Giurgiu (- 2024),Liga I,Romania
+FC Dinamo 1948,Liga I,Romania
+FC Botosani,Liga I,Romania
+FC Voluntari,Liga I,Romania
+ACSM Politehnica Iasi,Liga I,Romania
+Gaz Metan Medias (- 2022),Liga I,Romania
+Sepsi OSK Sf. Gheorghe,Liga I,Romania
+FC Hermannstadt,Liga I,Romania
+AFC Chindia Targoviste,Liga I,Romania
+Academica Clinceni,Liga I,Romania
+UTA Arad,Liga I,Romania
+ACSC FC Arges,Liga I,Romania
+FCV Farul Constanta,Liga I,Romania
+FC Rapid 1923,Liga I,Romania
+FC U Craiova 1948,Liga I,Romania
+CS Mioveni,Liga I,Romania
+FC Universitatea Cluj,Liga I,Romania
+Petrolul Ploiesti,Liga I,Romania
+SC Otelul Galati,Liga I,Romania
+ASFC Buzau (2016-2025),Liga I,Romania
+AFC Unirea 04 Slobozia,Liga I,Romania
+Olympiacos Piraeus,Super League Greece,Greece
+PAOK Thessaloniki,Super League Greece,Greece
+AEK Athens,Super League Greece,Greece
+Panathinaikos,Super League Greece,Greece
+AE Larisa,Super League Greece,Greece
+Atromitos Athens,Super League Greece,Greece
+Aris Thessaloniki,Super League Greece,Greece
+Asteras Tripolis,Super League Greece,Greece
+OFI Crete,Super League Greece,Greece
+AO Xanthi,Super League Greece,Greece
+Panetolikos,Super League Greece,Greece
+Volos NFC,Super League Greece,Greece
+PAS Lamia 1964,Super League Greece,Greece
+Panionios FC,Super League Greece,Greece
+PAS Giannina,Super League Greece,Greece
+Apollon Smyrnis,Super League Greece,Greece
+Ionikos Nikeas,Super League Greece,Greece
+Levadiakos,Super League Greece,Greece
+Panserraikos,Super League Greece,Greece
+AE Kifisia,Super League Greece,Greece
+Asteras Aktor,Super League Greece,Greece
+Athens Kallithea,Super League Greece,Greece

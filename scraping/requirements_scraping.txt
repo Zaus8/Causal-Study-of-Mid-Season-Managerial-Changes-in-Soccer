@@ -1,0 +1,24 @@
+# requirements_scraping.txt
+# Install before running any scraper:
+#   pip install -r requirements_scraping.txt
+
+# HTTP & HTML parsing
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+statsbombpy>=1.1.0
+
+soccerdata>=0.4.0
+
+ratelimit>=2.2.1
+tenacity>=8.2.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+html5lib>=1.1

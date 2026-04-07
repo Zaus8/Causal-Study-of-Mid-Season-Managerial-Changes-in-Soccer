@@ -1,0 +1,2 @@
+match_id,match_date,kick_off,competition,season,home_team,away_team,home_score,away_score,match_status,match_status_360,last_updated,last_updated_360,match_week,competition_stage,stadium,referee,home_managers,away_managers,data_version,shot_fidelity_version,xy_fidelity_version
+3750201,2009-05-27,20:45:00.000,Europe - Champions League,2008/2009,Barcelona,Manchester United,2,0,available,scheduled,2021-11-07T14:20:01.699993,2021-06-13T16:17:31.694,1,Final,Estadio Olímpico,Massimo Busacca,Josep Guardiola i Sala,Alex Ferguson,1.1.0,2,2
