@@ -12,6 +12,7 @@ from scipy.stats import ttest_1samp
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
+from scipy.stats import spearmanr
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -294,6 +295,8 @@ res_clean.to_csv(os.path.join(OUT_DIR, "did_results.csv"), index=False)
 
 # Event study
 # ==================================
+import matplotlib.lines as mlines
+
 traj_rows = []
 for _, pair in res_clean.iterrows():
     fmw = pair["firing_mw"]
@@ -315,31 +318,48 @@ traj_avg.to_csv(os.path.join(OUT_DIR, "event_study.csv"), index=False)
 
 fig, ax = plt.subplots(figsize=(10, 5.5), facecolor="white")
 ax.set_facecolor("#F8F9FB")
-for group, color, marker in [("Fired", C_FIRED, "o"), ("Control", C_CONTROL, "s")]:
-    g = traj_avg[traj_avg["group"] == group].sort_values("rel_week")
-    ax.fill_between(g["rel_week"], g["mean_xgd"]-1.96*g["sem"], g["mean_xgd"]+1.96*g["sem"],
-                    alpha=0.12, color=color)
-    ax.plot(g["rel_week"], g["mean_xgd"], color=color, lw=2.2, marker=marker, ms=4,
-            label="Fired (treated)" if group=="Fired" else "Matched control", zorder=5)
 
-ax.axvline(0.5, color=C_GOLD, lw=2, ls="--", alpha=0.9)
-ax.text(0.7, 0.35, "Firing\nevent", fontsize=9, color="#B8920A",
-        bbox=dict(boxstyle="round,pad=0.25", facecolor="#FFFDE7", edgecolor=C_GOLD, lw=0.8))
+# Plot each group separately so we can capture the line handles
+g_fired   = traj_avg[traj_avg["group"] == "Fired"].sort_values("rel_week")
+g_control = traj_avg[traj_avg["group"] == "Control"].sort_values("rel_week")
+
+ax.fill_between(g_fired["rel_week"],
+    g_fired["mean_xgd"] - 1.96*g_fired["sem"],
+    g_fired["mean_xgd"] + 1.96*g_fired["sem"],
+    alpha=0.12, color=C_FIRED)
+ax.fill_between(g_control["rel_week"],
+    g_control["mean_xgd"] - 1.96*g_control["sem"],
+    g_control["mean_xgd"] + 1.96*g_control["sem"],
+    alpha=0.12, color=C_CONTROL)
+
+line_fired,   = ax.plot(g_fired["rel_week"],   g_fired["mean_xgd"],
+                        color=C_FIRED,   lw=2.2, marker="o", ms=4, zorder=5)
+line_control, = ax.plot(g_control["rel_week"], g_control["mean_xgd"],
+                        color=C_CONTROL, lw=2.2, marker="s", ms=4, zorder=5)
+
+firing_line   = ax.axvline(0.5, color=C_GOLD, lw=2, ls="--", alpha=0.9, zorder=4)
+firing_handle = mlines.Line2D([], [], color=C_GOLD, lw=2, ls="--", label="Firing event")
+
 ax.axhline(0, color="#aaaaaa", lw=0.8)
 ax.axvspan(-PRE_WINDOW, 0.5, alpha=0.03, color=C_FIRED)
 ax.axvspan(0.5, POST_WINDOW, alpha=0.03, color=C_GREEN)
+
 ax.set_xlabel("Matchweeks Relative to Firing  (0 = firing event)", fontsize=11)
 ax.set_ylabel("Average xGD per Match", fontsize=11)
-ax.set_title(f"DiD Event Study: xGD Trajectory Around Manager Firing\n"
-             f"({len(res_clean)} matched pairs · 20 leagues, 2019–2025)",
+ax.set_title(f"DiD Event Study: xGD Trajectory Around Manager Firing",
              fontsize=12, fontweight="bold", color=C_NAVY)
 ax.set_xlim(-PRE_WINDOW-0.5, POST_WINDOW+0.5)
 ax.set_xticks(range(-PRE_WINDOW, POST_WINDOW+1))
-ax.legend(fontsize=10, framealpha=0.9)
+ax.legend(
+    handles=[line_fired, line_control, firing_handle],
+    labels=["Fired (treated)", "Matched control", "Firing event"],
+    fontsize=10, framealpha=0.9, loc="upper left"
+)
 ax.grid(axis="y", color="#eeeeee", lw=0.6)
 for spine in ax.spines.values(): spine.set_color("#dddddd")
 plt.tight_layout()
-plt.savefig(os.path.join(FIG_DIR, "fig_event_study.png"), dpi=150, bbox_inches="tight", facecolor="white")
+plt.savefig(os.path.join(FIG_DIR, "fig_event_study.png"),
+            dpi=150, bbox_inches="tight", facecolor="white")
 plt.close()
 
 # Subgroup analysis
@@ -443,6 +463,120 @@ ax.grid(axis="y", color="#eeeeee", lw=0.6)
 for spine in ax.spines.values(): spine.set_color("#dddddd")
 plt.tight_layout()
 plt.savefig(os.path.join(FIG_DIR, "fig_placebo.png"), dpi=150, bbox_inches="tight", facecolor="white")
+plt.close()
+
+# Serie A 2019/20: xGD vs Table Position Visualisation
+name_map_extra = {271: 'Bologna', 282: 'Inter Milan'}
+name_map_full  = {**dict(zip(firing['club_id'], firing['club_name'])), **name_map_extra}
+
+sub = panel[(panel['league_id'] == 4) & (panel['season'] == '2019/2020')]
+cs  = (sub.groupby('club_id')
+         .agg(avg_xgd=('xgd_proxy', 'mean'), total_pts=('points', 'sum'))
+         .reset_index()
+         .sort_values('total_pts', ascending=False)
+         .reset_index(drop=True))
+cs['table_pos'] = cs.index + 1
+cs['club_name'] = cs['club_id'].map(name_map_full).fillna('Unknown')
+
+rho, _ = spearmanr(cs['avg_xgd'], -cs['table_pos'])
+
+TEAM_COLORS = {
+    'Juventus':'#000000', 'Inter Milan':'#003399', 'Atalanta':'#1B5E20',
+    'Lazio':'#87CEEB',    'AS Roma':'#8B0000',     'AC Milan':'#C8102E',
+    'Napoli':'#00A2E8',   'Sassuolo':'#008000',
+}
+ANNOTATIONS = {
+    'Juventus':   (1,  0.87, -1.2,  0.06),
+    'Inter Milan':(2,  1.18,  0.3,  0.06),
+    'Atalanta':   (3,  1.32,  0.2,  0.08),
+    'Lazio':      (4,  0.97, -1.5,  0.05),
+    'Brescia':    (19,-1.16, -1.4, -0.06),
+    'Spal':       (20,-1.32,  0.3, -0.06),
+}
+
+fig, ax = plt.subplots(figsize=(9, 5.5), facecolor='white')
+ax.set_facecolor('#F8F9FB')
+
+for _, row in cs.iterrows():
+    col = TEAM_COLORS.get(row['club_name'], '#778899')
+    ax.scatter(row['table_pos'], row['avg_xgd'],
+               color=col, s=85, zorder=5, edgecolors='white', lw=0.6)
+
+z  = np.polyfit(cs['table_pos'], cs['avg_xgd'], 1)
+xs = np.linspace(1, 20, 100)
+ax.plot(xs, np.poly1d(z)(xs), '--', color='#888888', lw=1.2, alpha=0.6)
+
+for name, (pos, xgd, dx, dy) in ANNOTATIONS.items():
+    ax.annotate(name, (pos, xgd), (pos + dx, xgd + dy),
+                fontsize=8, color='#333333',
+                arrowprops=dict(arrowstyle='-', color='#aaaaaa', lw=0.7))
+
+ax.axhline(0, color='#cccccc', lw=0.8)
+ax.set_xlabel('Final League Table Position  (1 = champion)', fontsize=11)
+ax.set_ylabel('Average xGD per Match', fontsize=11)
+ax.set_title(
+    f'Serie A 2019/20: Expected Goal Difference vs. Final Table Position\n'
+    f'Spearman ρ = {rho:.3f}  —  strongest correlation across all 120 league-seasons in dataset',
+    fontsize=12, fontweight='bold', color=C_NAVY)
+ax.set_xticks(range(1, 21))
+ax.text(0.97, 0.95, f'ρ = {rho:.3f}', transform=ax.transAxes,
+        fontsize=10, ha='right', va='top',
+        bbox=dict(boxstyle='round,pad=0.4', facecolor="#A37AAC", edgecolor="#CECDAF", lw=1))
+# ax.grid(axis='y', color='#eeeeee', lw=0.6)
+for sp in ax.spines.values(): sp.set_color('#dddddd')
+ax.legend(fontsize=9, framealpha=0.9)
+plt.tight_layout()
+plt.savefig(os.path.join(FIG_DIR, 'fig_seriea_xgd.png'),
+            dpi=150, bbox_inches='tight', facecolor='white')
+plt.close()
+
+# EDA: xGD at the Moment of Firing
+print("\n[*] Generating EDA: xGD distribution at moment of firing...")
+
+roll_xgd_at_firing = valid['roll_xgd_8'].dropna()
+
+pct_negative = (roll_xgd_at_firing < 0).mean()
+mean_val     = roll_xgd_at_firing.mean()
+median_val   = roll_xgd_at_firing.median()
+
+fig, ax = plt.subplots(figsize=(9, 5), facecolor='white')
+ax.set_facecolor('#F8F9FB')
+
+# Split bins
+bins = np.linspace(roll_xgd_at_firing.min() - 0.1, roll_xgd_at_firing.max() + 0.1, 36)
+neg_vals = roll_xgd_at_firing[roll_xgd_at_firing <  0]
+pos_vals = roll_xgd_at_firing[roll_xgd_at_firing >= 0]
+
+ax.hist(neg_vals, bins=bins, color=C_FIRED,   alpha=0.80, edgecolor='white', lw=0.4, zorder=3)
+ax.hist(pos_vals, bins=bins, color=C_GREEN,   alpha=0.75, edgecolor='white', lw=0.4, zorder=3)
+
+# Mean and median lines
+ax.axvline(mean_val,   color='#1B2A4A', lw=2.0, ls='--', zorder=5,
+           label=f'Mean = {mean_val:.2f}')
+ax.axvline(median_val, color='#E9C46A', lw=2.0, ls=':',  zorder=5,
+           label=f'Median = {median_val:.2f}')
+ax.axvline(0, color='#888888', lw=1.0, zorder=4)
+
+ax.text(0.03, 0.95,
+        f'{pct_negative:.0%} of firings\nhappen with\nnegative xGD',
+        transform=ax.transAxes, fontsize=10, va='top', ha='left',
+        color='#7B1A05',
+        bbox=dict(boxstyle='round,pad=0.45', facecolor='#FFF0EE',
+                  edgecolor=C_FIRED, lw=1))
+
+ax.set_xlabel('8-Match Rolling xGD per Game at Time of Firing', fontsize=11)
+ax.set_ylabel('Number of Firings', fontsize=11)
+ax.set_title(
+    'When Do Clubs Fire Their Manager?\n'
+    'Distribution of recent form (rolling 8-match xGD) at the moment of dismissal',
+    fontsize=12, fontweight='bold', color=C_NAVY)
+ax.legend(fontsize=10, framealpha=0.9, loc='upper right')
+ax.grid(axis='y', color='#eeeeee', lw=0.6)
+for sp in ax.spines.values(): sp.set_color('#dddddd')
+
+plt.tight_layout()
+plt.savefig(os.path.join(FIG_DIR, 'fig_xgd_at_firing.png'),
+            dpi=150, bbox_inches='tight', facecolor='white')
 plt.close()
 
 # Summary
