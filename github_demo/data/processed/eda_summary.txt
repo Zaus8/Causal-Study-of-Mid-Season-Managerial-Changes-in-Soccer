@@ -1,0 +1,37 @@
+ ______________________
+|  EDA SUMMARY REPORT |
+ ----------------------
+
+  DATA COVERAGE
+    Leagues          : 20
+    Tiers            : 3  (Big-8 elite / Strong mid / Developing)
+    Seasons          : 6 (2019/2020 – 2024/2025)
+    Clubs            : 510
+    Team-match rows  : 68,404
+
+  DATA QUALITY
+    xG coverage      : 27.8%
+    (Remaining rows use goal differential as proxy)
+
+  MANAGER FIRINGS
+    Total firings    : 2,053
+    With matchweek   : 1,180  (57.5%)
+    Valid mid-season : 594
+
+  FIRINGS BY TIER
+    Tier 1          : 821
+    Tier 2          : 633
+    Tier 3          : 599
+
+  FEATURE ENGINEERING
+    Rolling windows  : [3, 5, 8] matchweeks
+    Key features     : roll_xgd_8, roll_pts_8, cum_pts,
+                       pts_rank_pct, squad_value_z
+    xgd_proxy        : xGD where available, else goal diff
+
+  NOTES & LIMITATIONS
+    - xG coverage varies by league/season (API-Football data)
+    - 873 firings missing matchweek (TM date outside API-Football range)
+    - ~50 manager spells dropped (clubs not in API-Football dataset)
+    - Interim replacements identified by tenure < 90 days (TM hire_type unreliable)
+    - All null squad values imputed with league-season median
