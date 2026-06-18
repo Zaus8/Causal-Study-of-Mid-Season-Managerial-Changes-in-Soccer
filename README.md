@@ -116,13 +116,3 @@ python milestone4.py
 - **DiD:** 8-match pre-window vs 12-match post-window; ATT = (treated change) − (control change).
 - **Checks:** covariate balance (SMD < 0.1), parallel pre-trends (event study), placebo test
   on control clubs.
-
----
-
-## Member contributions
-
-| Area | Owner |
-|------|-------|
-| Scraping and data cleaning | Hasnain Sizar |
-| Causal methods and modeling (PSM, DiD) | Apoorva Tarun |
-| EDA, visualization, reporting, repository | Saumya Goyal |
