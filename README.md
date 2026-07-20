@@ -1,7 +1,5 @@
 # Causal Impact of Mid-Season Managerial Changes on Team Performance
 
-**Stats 170B Final Project** — Apoorva Tarun, Hasnain Sizar, Saumya Goyal
-
 Does firing a manager mid-season *cause* better performance, or is the apparent improvement
 just regression to the mean? We answer this causally using **expected goal difference (xGD)**
 as the outcome and combining **Propensity Score Matching (PSM)** with **Difference-in-Differences
