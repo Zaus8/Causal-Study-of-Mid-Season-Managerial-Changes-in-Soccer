@@ -1,7 +1,5 @@
 # Causal Impact of Mid-Season Managerial Changes on Team Performance
 
-**Stats 170B Final Project** — Apoorva Tarun, Hasnain Sizar, Saumya Goyal
-
 Does firing a manager mid-season *cause* better performance, or is the apparent improvement
 just regression to the mean? We answer this causally using **expected goal difference (xGD)**
 as the outcome and combining **Propensity Score Matching (PSM)** with **Difference-in-Differences
@@ -116,13 +114,3 @@ python milestone4.py
 - **DiD:** 8-match pre-window vs 12-match post-window; ATT = (treated change) − (control change).
 - **Checks:** covariate balance (SMD < 0.1), parallel pre-trends (event study), placebo test
   on control clubs.
-
----
-
-## Member contributions
-
-| Area | Owner |
-|------|-------|
-| Scraping and data cleaning | Hasnain Sizar |
-| Causal methods and modeling (PSM, DiD) | Apoorva Tarun |
-| EDA, visualization, reporting, repository | Saumya Goyal |
